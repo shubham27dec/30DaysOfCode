@@ -15,7 +15,8 @@ public class Day2Operators {
 
 
     class Result {
-
+        int data =0 ;
+        int round =0;
         /*
          * Complete the 'solve' function below.
          *
@@ -33,6 +34,12 @@ public class Day2Operators {
             double total = tip + tax + meal_cost;
             int pay = (int)Math.round((total));
             System.out.print(pay);
+            this.data = meal_cost;
+            this.round = tax_percent;
+        }
+        
+        public void print(){
+            System.out.print(this.data +" "+this.round);
         }
 
     }
@@ -48,7 +55,7 @@ public class Day2Operators {
             int tax_percent = Integer.parseInt(bufferedReader.readLine().trim());
 
             Result.solve(meal_cost, tip_percent, tax_percent);
-
+            Result.print();
             bufferedReader.close();
         }
     }

@@ -14,6 +14,8 @@ import static java.util.stream.Collectors.toList;
 
 public class Day3Conditionals {
     public static void main(String[] args) throws IOException {
+        
+        // Creating an object for BufferedReader class.
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
         int N = Integer.parseInt(bufferedReader.readLine().trim());

@@ -18,7 +18,7 @@ public class Day2Operators {
         int data =0 ;
         int round =0;
         /*
-         * Complete the 'solve' function below.
+         
          *
          * The function accepts following parameters:
          *  1. DOUBLE meal_cost

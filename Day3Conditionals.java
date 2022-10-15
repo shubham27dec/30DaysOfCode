@@ -19,7 +19,7 @@ public class Day3Conditionals {
         int N = Integer.parseInt(bufferedReader.readLine().trim());
 
         if (N%2 != 0){
-            System.out.print("Weird");
+            System.out.print("Weird");                      
         }
         else {
             if (N>=2 && N<=5){
@@ -32,7 +32,8 @@ public class Day3Conditionals {
                 System.out.print("Not Weird");
             }
         }
-
+        String sum =  sum + " " ++N; 
+        String sum = N++;
         bufferedReader.close();
     }
 }

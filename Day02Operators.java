@@ -11,12 +11,12 @@ import java.util.stream.*;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
-public class Day2Operators {
+public class Day02Operators {
 
 
-    class Result {
-        int data =0 ;
-        int round =0;
+    static class Result {
+        static int data =0 ;
+        static int round =0;
         /*
          
          *
@@ -34,12 +34,12 @@ public class Day2Operators {
             double total = tip + tax + meal_cost;
             int pay = (int)Math.round((total));
             System.out.print(pay);
-            this.data = meal_cost;
-            this.round = tax_percent;
+            data = (int)meal_cost;
+            round = tax_percent;
         }
         
-        public void print(){
-            System.out.print(this.data +" "+this.round);
+        public static void print(){
+            System.out.print(data +" "+round);
         }
 
     }

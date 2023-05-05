@@ -4,10 +4,10 @@ import java.util.*;
 
 
 
-public class Day4ClassVsInstance {
+public class Day04ClassVsInstance {
     private int age;
 
-    public Day4ClassVsInstance(int initialAge) {
+    public Day04ClassVsInstance(int initialAge) {
         // Add some more code to run some checks on initialAge
         if(initialAge>=0){
             age = initialAge;
@@ -43,7 +43,7 @@ public class Day4ClassVsInstance {
         int T = sc.nextInt();
         for (int i = 0; i < T; i++) {
             int age = sc.nextInt();
-            Day4ClassVsInstance p = new Day4ClassVsInstance(age);
+            Day04ClassVsInstance p = new Day04ClassVsInstance(age);
             p.amIOld();
             for (int j = 0; j < 3; j++) {
                 p.yearPasses();

@@ -12,7 +12,7 @@ import java.util.stream.*;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
-public class Day3Conditionals {
+public class Day03Conditionals {
     public static void main(String[] args) throws IOException {
         
         // Creating an object for BufferedReader class.
@@ -34,8 +34,8 @@ public class Day3Conditionals {
                 System.out.print("Not Weird");
             }
         }
-        String sum =  sum + " " ++N; 
-        String sum = N++;
-        bufferedReader.close();
+//        String sum =  sum + " " ++N;
+//        sum = N++;
+//        bufferedReader.close();
     }
 }

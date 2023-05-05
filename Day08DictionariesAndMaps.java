@@ -2,7 +2,7 @@ package com.company;
 import java.util.*;
 import java.io.*;
 
-public class Day8DictionariesAndMaps {
+public class Day08DictionariesAndMaps {
     public static void main(String []argh){
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();

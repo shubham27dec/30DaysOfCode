@@ -1,7 +1,7 @@
 package com.company;
 import java.util.*;
 
-public class Day0HelloWorld {
+public class Day00HelloWorld {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String inputString = sc.nextLine();
